@@ -5,6 +5,7 @@
 - [Project Description](#Project-Description)
 - [Progress](#Progress)
 - [MATSim Guide](#MATSim-Guide)
+- [OSM data](#OSM-Data)
 - [References](#References)
 - [FAQs](#FAQs)
 
@@ -16,6 +17,9 @@
 
 ## Progress
 
+- Week 1</br> add later
+- Week 2</br> add later
+- Week 3</br> add later
 - Week 4</br>
   Discuss with Dr. Chen for the third program
 
@@ -24,6 +28,8 @@
   3. Once the Markov chain is modeled, we will sample people with different activities using the MC. However, before we use them as inputs for MATSim, we need to map the activities with concrete places. [to-do]
 
   Keep reading the MATSim docs. (details see MATSim Guide)
+
+  Quick look on OSM data.
 
 ---
 
@@ -74,6 +80,22 @@ freespeed = "27.78" permlanes = "2"
 ```
 
 #### population.xml
+
+## OSM Data
+
+OSM stands for OpenStreetMap. OSM data is free and public available data: [OpenStreetMap](https://www.openstreetmap.org/)
+
+How to download OSM data:
+
+- export data from [API](https://www.openstreetmap.org/). Can only download a small portion of the dataset given a bounding box.
+- Full dataset dowload (100G)
+- Large dataset download [HERE](https://download.geofabrik.de/). (two formats: **.osm.pbf** and **.osm.bz2**)
+
+How to work with .osm.bpf data?
+PYROSM is python API to manipulate the .osm.pbf data.
+A tutorial on how to use PYROSM can be found [HERE](https://pyrosm.readthedocs.io/en/latest/basics.html).
+
+A simple example on extracting OSM road network and transform it to network.xml for MATSim can be found [HERE](https://github.com/yizhiyan1992/EV_Time_Revolution_Porject/blob/main/pyrosm_tutorial.ipynb).
 
 ## References
 
