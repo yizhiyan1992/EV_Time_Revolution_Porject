@@ -1,5 +1,3 @@
-{::options parse_block_html="true" /}
-
 # EV_Time_Revolution_Porject
 
 ## Table of content
@@ -112,15 +110,7 @@ A tutorial on how to use PYROSM can be found [HERE](https://pyrosm.readthedocs.i
 
 A simple example on extracting OSM road network and transform it to network.xml for MATSim can be found [HERE](https://github.com/yizhiyan1992/EV_Time_Revolution_Porject/blob/main/pyrosm_tutorial.ipynb).
 
-<div class="panel panel-info">
-**Note**
-{: .panel-heading}
-<div class="panel-body">
-
-NOTE DESCRIPTION
-
-</div>
-</div>
+> :warning: The **PYROSM** failed to extract road network in large area for unknown reason. Instead, **osmnx** is suggested to apply to extract large road network.
 
 ## References
 
