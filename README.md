@@ -105,10 +105,12 @@ How to download OSM data:
 - Large dataset download [HERE](https://download.geofabrik.de/). (two formats: **.osm.pbf** and **.osm.bz2**)
 
 How to work with .osm.bpf data?
-PYROSM is python API to manipulate the .osm.pbf data.
-A tutorial on how to use PYROSM can be found [HERE](https://pyrosm.readthedocs.io/en/latest/basics.html).
+**PYROSM** is python API to manipulate the .osm.pbf data.
+A tutorial on how to use PYROSM can be found [HERE](https://pyrosm.readthedocs.io/en/latest/basics.html). Besides, **osmnx** and **networkx** are the lower level API under the hood of PYROSM. They support extracting osm data using **overpassing API** internally as well.
 
-A simple example on extracting OSM road network and transform it to network.xml for MATSim can be found [HERE](https://github.com/yizhiyan1992/EV_Time_Revolution_Porject/blob/main/pyrosm_tutorial.ipynb).
+A tutorial of using **PYROSM** to extract road network [HERE](https://github.com/yizhiyan1992/EV_Time_Revolution_Porject/blob/main/pyrosm_tutorial.ipynb).
+
+A tutorial of using **osmnx** to extract road network [HERE](https://github.com/yizhiyan1992/EV_Time_Revolution_Porject/blob/main/osmnx_tutorial.ipynb).
 
 > :warning: The **PYROSM** failed to extract road network in large area for unknown reason. Instead, **osmnx** is suggested to apply to extract large road network.
 
