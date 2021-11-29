@@ -1,3 +1,5 @@
+{::options parse_block_html="true" /}
+
 # EV_Time_Revolution_Porject
 
 ## Table of content
@@ -110,7 +112,28 @@ A tutorial on how to use PYROSM can be found [HERE](https://pyrosm.readthedocs.i
 
 A simple example on extracting OSM road network and transform it to network.xml for MATSim can be found [HERE](https://github.com/yizhiyan1992/EV_Time_Revolution_Porject/blob/main/pyrosm_tutorial.ipynb).
 
+<div class="panel panel-info">
+**Note**
+{: .panel-heading}
+<div class="panel-body">
+
+NOTE DESCRIPTION
+
+</div>
+</div>
+
 ## References
+
+### EV household distribution modeling
+
+- **Potential Early Adopters of Hybrid and Electric
+  Vehicles in Spain—Towards a Customer Profile**
+
+  basic idea: The author made a survey of EV purchase intention with ~400 people in different backgroup. For each respondent, socio-ecnomic features (gender, income, age) are considered.Apart from them, range anxiety, price, and morality are also considered.
+
+  The author then applied clustering algorithm to divide the people into two groups (people with stronger purchase will and weak one). The average purchase scores are 5.4 and 4.5 (out of 7), respectively.
+
+  In their clustering analysis, it is found that <u> socio-economic factors play less important role in affecting EV purchase</u>. Instead, anxiety range is the most important factor to distinguish the two clusters.
 
 ---
 
