@@ -13,6 +13,13 @@
 
 ## Project Description
 
+### Basic steps
+
+- Population generation for EV owners and regular vehicle owners
+- Daily activities sampling for each agent (people). A 24-hour time series activities.
+- Build network for MATSim (including EV charging scenarios)
+- Traffic assignments. Mapping out the activity events with specific geographical locations.
+
 ---
 
 ## Progress
@@ -30,6 +37,12 @@
   Keep reading the MATSim docs. (details see MATSim Guide)
 
   Quick look on OSM data.
+
+- Week 5<br>
+
+1. Compare using OSM data and UDOT .shp file for building the network.
+2. Keep reviewing the MATSim guidance pdf
+3. Literature review: how to generate EV household distribution?
 
 ---
 
