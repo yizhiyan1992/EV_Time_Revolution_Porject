@@ -44,6 +44,17 @@
 2. Keep reviewing the MATSim guidance pdf
 3. Literature review: how to generate EV household distribution?
 
+- Week 6<br>
+
+1. EV adoption distribution: how to decide which households have EVs?
+
+- Distribution and scale studies of public charging stations considering EVs' optimal charging choose-2016
+  : assume the total number of vehicle is 80,000, and 10% of them are EVs.
+- Simulation-optimization model for location of a public eletric vehicle charging infrastruture-2013, part E:
+
+  - apply variables including household num of vehicles, household income, education level, gender, driving age, price of gas and electrivity to infer the probability of EV adoption for each household (0.21-0.39)
+  - assume 1% peneration of EV over all vehicles, and then scale such probability.
+
 ---
 
 ## MATSim Guide
