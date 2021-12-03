@@ -48,12 +48,39 @@
 
 1. EV adoption distribution: how to decide which households have EVs?
 
+**build logistic regression (binary model)**
+
+- add red
+
+**clustering based on questionaire**
+
+- Potential Early Adopters of Hybrid and Electric Vehicles in Spain—Towards a Customer Profile
+
+  basic idea: The author made a survey of EV purchase intention with ~400 people in different backgroup. For each respondent, socio-ecnomic features (gender, income, age) are considered.Apart from them, range anxiety, price, and morality are also considered.
+
+  The author then applied clustering algorithm to divide the people into two groups (people with stronger purchase will and weak one). The average purchase scores are 5.4 and 4.5 (out of 7), respectively.
+
+  
+
+**Assume a fixed EV penetration rate**
+
 - Distribution and scale studies of public charging stations considering EVs' optimal charging choose-2016
   : assume the total number of vehicle is 80,000, and 10% of them are EVs.
+
+**Assume a fixed EV penetration rate and build a propbability model**
+
 - Simulation-optimization model for location of a public eletric vehicle charging infrastruture-2013, part E:
 
   - apply variables including household num of vehicles, household income, education level, gender, driving age, price of gas and electrivity to infer the probability of EV adoption for each household (0.21-0.39)
   - assume 1% peneration of EV over all vehicles, and then scale such probability.
+
+  We can use this approach based on WFRC data.
+
+  What useful socio-economic features WFRC data have?
+
+  household size , the number of household, and average income (based on TAZ level?).
+
+  concern: we dont have other important features such as the num of vehicles for each household, gender, educational level, age etc.
 
 ---
 
@@ -129,14 +156,6 @@ A tutorial of using **osmnx** to extract road network [HERE](https://github.com/
 
 ### EV household distribution modeling
 
-- **Potential Early Adopters of Hybrid and Electric
-  Vehicles in Spain—Towards a Customer Profile**
-
-  basic idea: The author made a survey of EV purchase intention with ~400 people in different backgroup. For each respondent, socio-ecnomic features (gender, income, age) are considered.Apart from them, range anxiety, price, and morality are also considered.
-
-  The author then applied clustering algorithm to divide the people into two groups (people with stronger purchase will and weak one). The average purchase scores are 5.4 and 4.5 (out of 7), respectively.
-
-  In their clustering analysis, it is found that <u> socio-economic factors play less important role in affecting EV purchase</u>. Instead, anxiety range is the most important factor to distinguish the two clusters.
 
 ---
 
