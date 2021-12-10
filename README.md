@@ -60,8 +60,6 @@
 
   The author then applied clustering algorithm to divide the people into two groups (people with stronger purchase will and weak one). The average purchase scores are 5.4 and 4.5 (out of 7), respectively.
 
-  
-
 **Assume a fixed EV penetration rate**
 
 - Distribution and scale studies of public charging stations considering EVs' optimal charging choose-2016
@@ -81,6 +79,50 @@
   household size , the number of household, and average income (based on TAZ level?).
 
   concern: we dont have other important features such as the num of vehicles for each household, gender, educational level, age etc.
+
+- Week 7<br>
+
+ATUS data:
+Target: re-define the activities for EV use purpose.
+
+Solutions:
+
+- use activity code to classify the types of activity that relate to EV public charging behavior.
+- use the location as the reference to define the activities that relate to EV public charging behavior.
+
+Idea: classify the activities based on the location instead of the activity codes. Since the activitiy code is very detailed level of activity, and there are lots of activity we do not really need.
+
+- Place:
+  1. home
+- transferring status:
+  1. car (driving)
+- locations where user could potentially use EVs:
+
+  1. workplace
+  2. other people's home
+  3. restaurant or bar
+  4. place of worship
+  5. grocery store
+  6. other store/mall
+  7. school
+  8. outdoors
+  9. library
+  10. gym
+  11. other place
+
+- locations that are not related to EV use:
+  1. car (passenger)
+  2. walking
+  3. bus
+  4. subway
+  5. bicyle
+  6. boat
+  7. taxi
+  8. airplane
+  9. other transportation mode
+  10. bank
+  11. post office
+  12. unspecific place
 
 ---
 
@@ -155,7 +197,6 @@ A tutorial of using **osmnx** to extract road network [HERE](https://github.com/
 ## References
 
 ### EV household distribution modeling
-
 
 ---
 
