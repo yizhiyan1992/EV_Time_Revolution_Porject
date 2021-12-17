@@ -111,6 +111,7 @@ Idea: classify the activities based on the location instead of the activity code
   11. other place
 
 - locations that are not related to EV use:
+
   1. car (passenger)
   2. walking
   3. bus
@@ -123,6 +124,14 @@ Idea: classify the activities based on the location instead of the activity code
   10. bank
   11. post office
   12. unspecific place
+
+- Week 8<br>
+  - genrate synthetical vehicle distribution
+  - discuss with Dr. Chen: can we use ATUS data to generate the vehicle trajectory based on daily activities?
+    - possible solution:
+      - when we use MC to generate activity data, the activity "driving" bridges different types of activities. For instance, "home" ---> "driving" ---> "work".
+      - driving activity has specific time. we use POI data to find one office building that has similar travel time with driving activity.
+      - problem: this is basically drawing a circle. Random effect is very large.
 
 ---
 
